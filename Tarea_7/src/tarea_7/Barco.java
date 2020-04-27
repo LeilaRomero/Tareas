@@ -56,6 +56,6 @@ public abstract class Barco{
 
     @Override
     public String toString() {
-        return "Eslora " + eslora + "\ndias " + dias + "\nmatricula "+matricula+ "\nel precio total es de: "+ precio;
+        return "Eslora " + eslora + "\nmatricula "+matricula+ "\nel precio total del alquiler es de: "+ precio;
     }
 }
