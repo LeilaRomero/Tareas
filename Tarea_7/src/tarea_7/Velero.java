@@ -33,9 +33,5 @@ public class Velero extends Barco {
         float precio=10*super.getEslora()*super.getDias()+8*numeroMastiles;
         super.setPrecio(precio);
     }
-
-    @Override
-    public String toString() {
-        return super.toString()+"Numero de mastiles es de " + numeroMastiles;
-    } 
+ 
 }

@@ -32,9 +32,5 @@ public class Deportivo extends Barco{
         float precio=10*super.getEslora()*super.getDias()+2*cv;
         super.setPrecio(precio);
     }
-
-    @Override
-    public String toString() {
-        return super.toString() + "CV son " + cv;
-    }  
+ 
 }

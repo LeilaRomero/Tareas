@@ -20,7 +20,7 @@ public class Tarea_7 {
     public static void main(String[] args) {
         
         ArrayList<Barco>listaBarcos=new ArrayList<>();
-        Yate yate=new Yate(12,6000,36,15,"Xexabel");
+        Yate yate=new Yate(12,6000,36,20,"Xexabel");
         Deportivo deportivo=new Deportivo(10000,100,15,"Logan");
         Velero velero=new Velero(7,30,10,"Lillies");
         yate.CalcularPrecio();

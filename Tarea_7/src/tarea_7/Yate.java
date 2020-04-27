@@ -44,9 +44,4 @@ public class Yate extends Barco {
         super.setPrecio(precio);
     }
 
-    @Override
-    public String toString() {
-        return super.toString()+"Numero de camarotes es de " + numeroCamarotes + 
-                "\ncv son " + cv;
-    }  
 }
